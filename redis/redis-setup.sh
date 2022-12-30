@@ -3,7 +3,7 @@ apt update
 apt install gcc -y -q
 rm /tmp/redis.tar.gz
 rm -rf /opt/redis
-wget -O /tmp/redis.tar.gz http://download.redis.io/releases/redis-5.0.3.tar.gz
+wget -O /tmp/redis.tar.gz https://download.redis.io/releases/redis-6.2.8.tar.gz
 mkdir /opt/redis
 tar xvf /tmp/redis.tar.gz --directory /opt/redis --strip 1
 apt install make -y -q
